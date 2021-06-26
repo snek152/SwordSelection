@@ -13,6 +13,7 @@ import javax.swing.text.html.parser.Entity;
 import java.util.Vector;
 
 public class ModItems {
+    // Iron sickles
     public static final RegistryObject<Item> IRON_SICKLES =
             Registration.ITEMS.register("iron_sickles",
                     () -> new SwordItem(ItemTier.IRON, 0,-1f,
@@ -20,11 +21,13 @@ public class ModItems {
                                     .defaultMaxDamage(200)
                                     .group(ItemGroup.COMBAT)
                                     .addToolType(ToolType.PICKAXE,0)));
+
+    // Iron broadsword
     public static final RegistryObject<Item> IRON_BROADSWORD =
             Registration.ITEMS.register("iron_broadsword",
                     () -> new BroadSword(ItemTier.IRON, 5,-3.3f,
                             new Item.Properties()
-                                    .defaultMaxDamage(150)
+                                    .defaultMaxDamage(220)
                                     .group(ItemGroup.COMBAT)));
 
 

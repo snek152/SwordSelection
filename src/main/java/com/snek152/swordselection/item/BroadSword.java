@@ -11,17 +11,14 @@ public class BroadSword extends SwordItem {
         super(tier, attackDamageIn, attackSpeedIn, builderIn);
     }
 
+    // Adding knockback
     @Override
     public boolean hitEntity(ItemStack stack, LivingEntity target, LivingEntity wielder){
 
-        // Gets a vector of length 1 in the direction the player holding this item is looking
         Vector3d look = wielder.getLookVec().normalize();
 
-        // Play around with this value until you get the amount of knockback you want
         double knockback = 3;
 
-        // Adds velocity to the target
-        //target.addVelocity(look.getX()*knockback, look.getY()*knockback, look.getZ()*knockback);
         target.setMotion(look.getX()*knockback,look.getY()*knockback,look.getZ()*knockback);
         return true;
 
