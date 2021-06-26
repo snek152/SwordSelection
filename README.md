@@ -5,7 +5,7 @@ This is my first Minecraft mod for Forge. Once it is working and stable, you can
 
 I will consider making a Fabric port for 1.16 and/or 1.17.
 
-A 1.17 port is planned once Forge releases their first stable build.
+A 1.17 port is planned for Forge.
 
 # Info
 
