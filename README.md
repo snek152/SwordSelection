@@ -6,3 +6,26 @@ This is my first Minecraft mod for Forge. Once it is working and stable, you can
 I will consider making a Fabric port for 1.16 and/or 1.17.
 
 A 1.17 port is planned once Forge releases their first stable build.
+
+# Info
+
+Currently, the added sword variations are as follows:
+- Iron sickles
+- Iron broadsword
+
+The planned sword variations include: 
+- Wooden, stone, diamond, netherite sickles
+- Wooden, stone, diamond, netherite broadsword
+- Daggers that are throwable
+- Scythe
+- Scimitars (long knife)
+
+Currently, the features of this mod are as follows:
+- Iron Sickles: A slightly faster yet less damaging variation of a sword. Can also work as a low-tier pickaxe
+- Iron Broadsword: A very bulky and slow sword variation that does much more damage, and also knocks back the target
+- Input an iron sword into a stonecutter to create these two sword variations
+
+Planned and possible features:
+- Dual wielding for scimitars and sickles
+- Custom crafting table-esque tile entity that can create sword variations
+- Config files for each sword variation and how to make them
