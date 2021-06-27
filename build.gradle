@@ -11,7 +11,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 
 group = 'com.snek152.swordselection'
-version = '0.1.1-1.16.5'
+version = '0.2.0-1.16.5'
 archivesBaseName = 'swordselection'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
