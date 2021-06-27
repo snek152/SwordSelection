@@ -29,3 +29,12 @@ Planned and possible features:
 - Dual wielding for scimitars and sickles
 - Custom crafting table-esque tile entity that can create sword variations
 - Config files for each sword variation and how to make them
+
+# Usage
+
+You can find compiled builds in the releases tab or on [CurseForge](https://www.curseforge.com/members/snek_152/projects). 
+
+Alternatively, if you want to compile the source yourself, run the command `git clone https://github.com/SneK152/SwordSelection.git` in the directory you want the folder in, or download and unzip the repo directly from GitHub. Open a command prompt in the newly created folder and execute the command `gradlew build` or `./gradlew build` depending on your operating system. This will output a .JAR in build/libs. Drag and drop this mod file into your mods folder in your Minecraft directory.
+
+License: MIT
+If you want to use this mod in a modpack, feel free as long as you credit me as the author.
