@@ -3,6 +3,8 @@
 
 This is my first Minecraft mod for Forge. Once it is working and stable, you can find compiled releases on Github and CurseForge.
 
+Make sure to use Forge Modloader build 36.1.0 or above, otherwise the mod may not work properly.
+
 I will consider making a Fabric port for 1.16 and/or 1.17.
 
 A 1.17 port is planned for Forge.
