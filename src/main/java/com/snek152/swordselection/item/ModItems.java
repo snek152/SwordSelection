@@ -18,7 +18,7 @@ public class ModItems {
             Registration.ITEMS.register("iron_sickles",
                     () -> new SwordItem(ItemTier.IRON, 0,-1f,
                             new Item.Properties()
-                                    .defaultMaxDamage(200)
+                                    .defaultMaxDamage(210)
                                     .group(ItemGroup.COMBAT)
                                     .addToolType(ToolType.PICKAXE,0)));
 
@@ -27,7 +27,15 @@ public class ModItems {
             Registration.ITEMS.register("iron_broadsword",
                     () -> new BroadSword(ItemTier.IRON, 5,-3.3f,
                             new Item.Properties()
-                                    .defaultMaxDamage(220)
+                                    .defaultMaxDamage(261)
+                                    .group(ItemGroup.COMBAT)));
+
+    // Iron longsword
+    public static final RegistryObject<Item> IRON_LONGSWORD =
+            Registration.ITEMS.register("iron_longsword",
+                    () -> new Longsword(ItemTier.IRON, 4,-2.2f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(250)
                                     .group(ItemGroup.COMBAT)));
 
 
