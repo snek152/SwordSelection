@@ -1,43 +1,68 @@
-# SwordSelection
- A Minecraft mod that allows you to create and select sword variations such as daggers, sickles, and broadswords. WIP
+# Sword Selection - A Minecraft mod for Forge
+This all-new Minecraft mod adds in new medieval-inspired sword variations. Over time, many swords have popped up over the years, coming in new builds and forms. Sword Selection aims to add many of these famous and popular sword variations into Minecraft with some special twists. You can find the changelog and full list of features below.
 
-This is my first Minecraft mod for Forge. Once it is working and stable, you can find compiled releases on Github and CurseForge.
+# Features
 
-Make sure to use Forge Modloader build 36.1.0 or above, otherwise the mod may not work properly.
+### Sickles
+Originating in the Neolithic Era, this special harvesting tool was also considered as a weapon because of its unique hook properties. In the Sword Selection mod, they are slightly faster than the average sword but do a little less damage in exchange. It can be used as a replacement for a hoe and can harvest crops too. The iron tier deals 3 damage with 3 attack speed and the stone tier deals 2 damage with 2.8 attack speed.
 
-I will consider making a Fabric port for 1.16 and/or 1.17.
+### Broadsword
+These bulky swords first came into use during the Medieval Ages as a double edged, sharper sword than its predecessors. As part of Sword Selection, they are a hefty weight to hold, due to their immense width and power. With the iron tier dealing a massive 8 damage for 0.7 attack speed and the stone tier dealing 7 damage for 0.6 attack speed, this sword is extremely powerful and has the power to send your enemies reeling with increased knockback.
 
-A 1.17 port is planned for Forge.
+### Longsword
+The longsword is a slightly flimsy and thin sword that came into existence during the Renaissance period in Europe. It was widely used in dueling, especially in the Viking era. Today, the longsword holds a special place in the Sword Selection mod. It is slightly thinner than the basic sword and is similar in terms of combat, with the iron tier dealing 7 damage for 1.8 attack speed and the stone tier dealing 6 damage for 1.6 attack speed. However, it has special properties. Striking a mob has a ten percent chance of spawning a lightning strike at their position, making this sword all the more deadly. In fact, in a thunderstorm, it has a 100% chance of spawning a lightning bolt. 
 
-# Info
+### Crafting
+As of version 0.3.0, you can input an iron or stone sword into a stonecutter to get their respective variations. However, a future feature may include a custom tile entity that can craft the different variations.
 
-Currently, the added sword variations are as follows:
-- Iron sickles
-- Iron broadsword
-- Iron longsword
+# Changelog
+Here is the changelog for the recent patches/updates to the mod.
 
-The planned sword variations include: 
-- Other tiers of current variations such as wood, stone, diamond, netherite
-- Daggers that are throwable
+## 0.3.0 (Snapshot/Beta)
+Gameplay changes:
+- Added the stone tiers of the sickles, longsword, and broadsword, as well as model and texture files and recipes
+
+Technical changes:
+- Revamped version system in build.gradle, made it more efficient for getting the mod version
+
+## 0.2.0 (Snapshot/Beta)
+Added the Iron longsword and model, recipe, and texture files
+
+## 0.1.1 (Snapshot/Beta)
+Added iron sickles, iron broadswords, and stonecutter recipes for both
+
+
+## Future Plans
+Currently, I am focusing on adding new tiers of the existing sword variations. Iron and stone have already been completed, but there will be a wood, diamond, and netherite tier of each variation as well. 
+
+Not only that, but there are plans for more variations to come in future updates. These include:
+- Throwable daggers
 - Scythe
-- Scimitars (long knife)
+- Scimitar (long knives)
+- and much more...
 
-Currently, the features of this mod are as follows:
-- Iron Sickles: A slightly faster yet less damaging variation of a sword. Can also work as a low-tier pickaxe
-- Iron Broadsword: A very bulky and slow sword variation that does much more damage, and also knocks back the target
-- Iron Longsword: A seemingly regular but much thinner sword variation. Has a 10% chance to spawn a lightning bolt on hit, or 100% chance during a thunderstorm
-- Input an iron sword into a stonecutter to create these sword variations
+In addition to more variations, here are some more plans for miscellaneous things that may be added into the mod in the future (in order of likelyness from most likely to least likely):
+- Config files to control each sword's attack damage and speed, as well as enable and disable variations and features
+- Custom tile entity that can craft and uncraft each sword variation
+- Dual wielding for the scimitars and sickles, and other variations that may need it
 
-Planned and possible features:
-- Dual wielding for scimitars and sickles
-- Custom crafting table-esque tile entity that can create sword variations
-- Config files for each sword variation and how to make them
 
-# Usage
+# Technical Info
+Sword Selection is built using Minecraft Forge version 36.1.0 and MCP for Minecraft 1.16.5. It is licensed under the MIT license. You can feel free to use this mod in a modpack as long as you credit me as the author.
 
-You can find compiled builds in the releases tab or on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sword-selection). 
+As for future versions, I am planning to port this mod to 1.17 once Forge has released for it. 
+A Fabric version is most likely not going to happen anytime soon, however it is a possibility. Feel free to port this mod to Fabric if you want to.
 
-Alternatively, if you want to compile the source yourself, run the command `git clone https://github.com/SneK152/SwordSelection.git` in the directory you want the folder in, or download and unzip the repo directly from GitHub. Open a command prompt in the newly created folder and execute the command `gradlew build` or `./gradlew build` depending on your operating system. This will output a .JAR in build/libs. Drag and drop this mod file into your mods folder in your Minecraft directory.
+NOTE: This mod is a work in progress (WIP). This means that not all features are in the game yet. It is still in beta and features are being added continually. If you would like to help in the development of this mod, you can message me on CurseForge. 
 
-License: MIT
-If you want to use this mod in a modpack, feel free as long as you credit me as the author.
+# Using Sword Selection
+If you want to run this mod in Minecraft, you have a few options. The best and most reliable way to access my mod is through CurseForge. Click the link in the About section of this repo to be redirected to my mod page on CurseForge. There, you can access my compiled builds as they release. 
+
+If for some reason CurseForge doesn't work for you or you don't prefer to use it, I also post compiled builds in the releases tab of this repo. You can find the JAR download there as well.
+
+Finally, you can build the mod yourself using the source code. However, this is NOT RECOMMENDED for people who don't have prior knowledge about computers. To do this, you can download the zip file from the home page. Or, you can clone the repository using the following command:
+`git clone https://github.com/SneK152/SwordSelection.git`
+
+Next, you want to make sure you have the Java 8 JDK installed, or else you may not be able to compile the build and it will throw an error. You can find JDK builds at [AdoptOpenJDK](https://adoptopenjdk.net). 
+
+Open your OS terminal and cd into the project folder. You should be in the folder with the gradle files and the src folder. Use `gradlew build` for Windows or `./gradlew build` for MacOS/Linux to build the project. It will run for some time, then output the JAR file in build/libs. Drag and drop that into your mod folder and you're good to go!
