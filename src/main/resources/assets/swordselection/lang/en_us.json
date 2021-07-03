@@ -1,5 +1,8 @@
 {
   "item.swordselection.iron_sickles": "Iron Sickles",
   "item.swordselection.iron_broadsword": "Iron Broadsword",
-  "item.swordselection.iron_longsword": "Iron Longsword"
+  "item.swordselection.iron_longsword": "Iron Longsword",
+  "item.swordselection.stone_sickles": "Stone Sickles",
+  "item.swordselection.stone_broadsword": "Stone Broadsword",
+  "item.swordselection.stone_longsword": "Stone Longsword"
 }

@@ -8,7 +8,7 @@ logoFile="swordselection.png" #optional
 [[mods]] #mandatory
 
 modId="swordselection" #mandatory
-version="0.2.0" #mandatory
+version="${version}" #mandatory
 displayName="Sword Selection" #mandatory
 #updateJSONURL="http://myurl.me/" #optional
 #displayURL="http://example.com/" #optional
