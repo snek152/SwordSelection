@@ -15,6 +15,8 @@ The longsword is a slightly flimsy and thin sword that came into existence durin
 ### Crafting
 As of version 0.3.0, you can input an iron or stone sword into a stonecutter to get their respective variations. However, a future feature may include a custom tile entity that can craft the different variations.
 
+![Stonecutter example](https://i.ibb.co/VSbJGhD/Sword-Selection-Stonecutter-GUI.png)
+
 # Changelog
 Here is the changelog for the recent patches/updates to the mod.
 
