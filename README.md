@@ -20,6 +20,12 @@ As of version 0.3.0, you can input an iron or stone sword into a stonecutter to 
 # Changelog
 Here is the changelog for the recent patches/updates to the mod.
 
+## 0.3.1 (Snapshot/Beta)
+
+Gameplay changes:
+- Dual wielding has been added for sickles, but it is not yet functional and is purely cosmetic, meaning it won't do any extra damage.
+- You can also right click the sickles to create an attack animation that doesn't do any damage. This is a WIP
+
 ## 0.3.0 (Snapshot/Beta)
 Gameplay changes:
 - Added the stone tiers of the sickles, longsword, and broadsword, as well as model and texture files and recipes
