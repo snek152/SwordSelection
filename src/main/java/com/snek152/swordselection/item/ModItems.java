@@ -1,22 +1,17 @@
 package com.snek152.swordselection.item;
 
-import com.snek152.swordselection.SwordSelection;
 import com.snek152.swordselection.util.Registration;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
-import net.minecraft.util.math.vector.Vector3d;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 
-import javax.swing.text.html.parser.Entity;
-import java.util.Vector;
-
 public class ModItems {
     // Iron sickles
+    public static final int iron_sickles_damage = 3;
+    public static final int stone_sickles_damage = 2;
     public static final RegistryObject<Item> IRON_SICKLES =
             Registration.ITEMS.register("iron_sickles",
-                    () -> new SwordItem(ItemTier.IRON, 0,-1f,
+                    () -> new Sickles(ItemTier.IRON, iron_sickles_damage-3,-1f,
                             new Item.Properties()
                                     .defaultMaxDamage(210)
                                     .group(ItemGroup.COMBAT)
@@ -25,7 +20,7 @@ public class ModItems {
     // Iron broadsword
     public static final RegistryObject<Item> IRON_BROADSWORD =
             Registration.ITEMS.register("iron_broadsword",
-                    () -> new BroadSword(ItemTier.IRON, 5,-3.3f,
+                    () -> new Broadsword(ItemTier.IRON, 5,-3.3f,
                             new Item.Properties()
                                     .defaultMaxDamage(261)
                                     .group(ItemGroup.COMBAT)));
@@ -41,7 +36,7 @@ public class ModItems {
     // Stone sickles
     public static final RegistryObject<Item> STONE_SICKLES =
             Registration.ITEMS.register("stone_sickles",
-                    () -> new SwordItem(ItemTier.STONE, 0,-1.2f,
+                    () -> new Sickles(ItemTier.STONE, stone_sickles_damage-2,-1.2f,
                             new Item.Properties()
                                     .defaultMaxDamage(91)
                                     .group(ItemGroup.COMBAT)
@@ -50,7 +45,7 @@ public class ModItems {
     // Stone broadsword
     public static final RegistryObject<Item> STONE_BROADSWORD =
             Registration.ITEMS.register("stone_broadsword",
-                    () -> new BroadSword(ItemTier.STONE, 5,-3.4f,
+                    () -> new Broadsword(ItemTier.STONE, 5,-3.4f,
                             new Item.Properties()
                                     .defaultMaxDamage(142)
                                     .group(ItemGroup.COMBAT)));
