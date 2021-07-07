@@ -7,7 +7,7 @@ This all-new Minecraft mod adds in new medieval-inspired sword variations. Over 
 
 ![stone sickles](https://i.ibb.co/3v0Hf0c/stonesickles.png) ![iron sickles](https://i.ibb.co/9v0ybjK/ironsickles.png)
 
-Originating in the Neolithic Era, this special harvesting tool was also considered as a weapon because of its unique hook properties. In the Sword Selection mod, they are slightly faster than the average sword but do a little less damage in exchange. It can be used as a replacement for a hoe and can harvest crops too. The iron tier deals 3 damage with 3 attack speed and the stone tier deals 2 damage with 2.8 attack speed.
+Originating in the Neolithic Era, this special harvesting tool was also considered as a weapon because of its unique hook properties. In the Sword Selection mod, they are slightly faster than the average sword but do a little less damage in exchange. It can be used as a replacement for a hoe and can harvest crops too. The iron tier deals 3 damage with 3 attack speed and the stone tier deals 2 damage with 2.8 attack speed. Can be dual wielded.
 
 ### Broadsword
 
