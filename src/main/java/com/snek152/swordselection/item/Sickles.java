@@ -24,12 +24,15 @@ public class Sickles extends SwordItem {
 
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, PlayerEntity playerIn, Hand handIn) {
-        playerIn.swing(handIn,true);
-        Minecraft mc = Minecraft.getInstance();
-//        if (mc.objectMouseOver.getType() == RayTraceResult.Type.ENTITY) {
-//            SwordItem item = (SwordItem) playerIn.getHeldItem(handIn).getItem();
-//            System.out.println(((EntityRayTraceResult) mc.objectMouseOver).getEntity().attackEntityFrom(DamageSource.causePlayerDamage(playerIn), 3));
-//        }
+        if (playerIn.getHeldItem(Hand.MAIN_HAND).getItem().getClass() == Sickles.class) {
+            playerIn.swing(handIn, true);
+            Minecraft mc = Minecraft.getInstance();
+
+            if (mc.pointedEntity != null) {
+                playerIn.attackTargetEntityWithCurrentItem(worldIn.getEntityByID(mc.pointedEntity.getEntityId()));
+            }
+        }
         return ActionResult.resultPass(playerIn.getHeldItem(handIn));
+
     }
 }
