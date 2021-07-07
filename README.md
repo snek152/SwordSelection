@@ -22,12 +22,19 @@ These bulky swords first came into use during the Medieval Ages as a double edge
 The longsword is a slightly flimsy and thin sword that came into existence during the Renaissance period in Europe. It was widely used in dueling, especially in the Viking era. Today, the longsword holds a special place in the Sword Selection mod. It is slightly thinner than the basic sword and is similar in terms of combat, with the iron tier dealing 7 damage for 1.8 attack speed and the stone tier dealing 6 damage for 1.6 attack speed. However, it has special properties. Striking a mob has a ten percent chance of spawning a lightning strike at their position, making this sword all the more deadly. In fact, in a thunderstorm, it has a 100% chance of spawning a lightning bolt. 
 
 ### Crafting
-As of version 0.3.0, you can input an iron or stone sword into a stonecutter to get their respective variations. However, a future feature may include a custom tile entity that can craft the different variations.
+As of version 0.4.0, you can input an iron or stone sword into a stonecutter to get their respective variations. However, a future feature may include a custom tile entity that can craft the different variations.
 
 ![Stonecutter example](https://i.ibb.co/VSbJGhD/Sword-Selection-Stonecutter-GUI.png)
 
 # Changelog
 Here is the changelog for the recent patches/updates to the mod.
+
+## 0.4.0 (Snapshot/Beta)
+
+Gameplay changes:
+- Dual wielding is now functional. Equip any tier of sickles in the offhand and another in the mainhand to fight like a boss
+- NOTE: the above only works when a sickle is in both the main hand and offhand, otherwise it would be too overpowered
+
 
 ## 0.3.1 (Snapshot/Beta)
 
