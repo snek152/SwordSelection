@@ -1,5 +1,6 @@
 package com.snek152.swordselection.item;
 
+import com.snek152.swordselection.util.Config;
 import com.snek152.swordselection.util.Registration;
 import net.minecraft.item.*;
 import net.minecraftforge.common.ToolType;
@@ -10,7 +11,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> IRON_SICKLES =
             Registration.ITEMS.register("iron_sickles",
-                    () -> new Sickles(ItemTier.IRON, 0,-1f,
+                    () -> new Sickles(ItemTier.IRON, Config.SICKLES.get()-3,-1f,
                             new Item.Properties()
                                     .defaultMaxDamage(210)
                                     .group(ItemGroup.COMBAT)
