@@ -28,7 +28,7 @@ public class ModItems {
     // Iron longsword
     public static final RegistryObject<Item> IRON_LONGSWORD =
             Registration.ITEMS.register("iron_longsword",
-                    () -> new Longsword(ItemTier.IRON, 4,-2.2f,
+                    () -> new Longsword(ItemTier.IRON, 3,-2.2f,
                             new Item.Properties()
                                     .defaultMaxDamage(250)
                                     .group(ItemGroup.COMBAT)));
@@ -53,7 +53,7 @@ public class ModItems {
     // Stone longsword
     public static final RegistryObject<Item> STONE_LONGSWORD =
             Registration.ITEMS.register("stone_longsword",
-                    () -> new Longsword(ItemTier.STONE, 4,-2.4f,
+                    () -> new Longsword(ItemTier.STONE, 3,-2.4f,
                             new Item.Properties()
                                     .defaultMaxDamage(131)
                                     .group(ItemGroup.COMBAT)));
