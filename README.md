@@ -19,15 +19,24 @@ These bulky swords first came into use during the Medieval Ages as a double edge
 
 ![stone longsword](https://i.ibb.co/c8GsfT2/stonelongsword.png) ![iron longsword](https://i.ibb.co/kBy5yCn/ironlongsword.png)
 
-The longsword is a slightly flimsy and thin sword that came into existence during the Renaissance period in Europe. It was widely used in dueling, especially in the Viking era. Today, the longsword holds a special place in the Sword Selection mod. It is slightly thinner than the basic sword and is similar in terms of combat, with the iron tier dealing 7 damage for 1.8 attack speed and the stone tier dealing 6 damage for 1.6 attack speed. However, it has special properties. Striking a mob has a ten percent chance of spawning a lightning strike at their position, making this sword all the more deadly. In fact, in a thunderstorm, it has a 100% chance of spawning a lightning bolt. 
+The longsword is a slightly flimsy and thin sword that came into existence during the Renaissance period in Europe. It was widely used in dueling, especially in the Viking era. Today, the longsword holds a special place in the Sword Selection mod. It is slightly thinner than the basic sword and is similar in terms of combat, with the iron tier dealing 6 damage for 1.8 attack speed and the stone tier dealing 5 damage for 1.6 attack speed. However, it has special properties. When striking a mob, it will also deal damage to mobs within a certain radius around it. 
 
 ### Crafting
-As of version 0.4.0, you can input an iron or stone sword into a stonecutter to get their respective variations. However, a future feature may include a custom tile entity that can craft the different variations.
+As of version 0.4.1, you can input an iron or stone sword into a stonecutter to get their respective variations. However, a future feature may include a custom tile entity that can craft the different variations.
 
 ![Stonecutter example](https://i.ibb.co/VSbJGhD/Sword-Selection-Stonecutter-GUI.png)
 
 # Changelog
 Here is the changelog for the recent patches/updates to the mod.
+
+## 0.4.1 (Snapshot/Beta)
+
+Gameplay changes:
+- The longsword's lightning properties have been removed. Instead, it attacks entities in a certain radius of the targeted entity.
+- In order to balance this new change, the damage of the longsword has been decreased to 6 for iron and 5 for stone
+
+Technical changes:
+- Skeleton config files and builders are now implemented. They are however very basic and minimal. Currently, the only thing that can be adjusted is the damage of iron sickles, but it could crash the game with a negative damage. Until the next update, it's probably best not to mess with the files right now.
 
 ## 0.4.0 (Snapshot/Beta)
 
