@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": "swordselection:netherite_broadsword",
+  "count": 1
+}

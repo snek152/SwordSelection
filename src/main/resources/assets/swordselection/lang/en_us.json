@@ -4,5 +4,17 @@
   "item.swordselection.iron_longsword": "Iron Longsword",
   "item.swordselection.stone_sickles": "Stone Sickles",
   "item.swordselection.stone_broadsword": "Stone Broadsword",
-  "item.swordselection.stone_longsword": "Stone Longsword"
+  "item.swordselection.stone_longsword": "Stone Longsword",
+  "item.swordselection.wooden_sickles": "Wooden Sickles",
+  "item.swordselection.wooden_broadsword": "Wooden Broadsword",
+  "item.swordselection.wooden_longsword": "Wooden Longsword",
+  "item.swordselection.golden_sickles": "Golden Sickles",
+  "item.swordselection.golden_broadsword": "Golden Broadsword",
+  "item.swordselection.golden_longsword": "Golden Longsword",
+  "item.swordselection.diamond_sickles": "Diamond Sickles",
+  "item.swordselection.diamond_broadsword": "Diamond Broadsword",
+  "item.swordselection.diamond_longsword": "Diamond Longsword",
+  "item.swordselection.netherite_sickles": "Netherite Sickles",
+  "item.swordselection.netherite_broadsword": "Netherite Broadsword",
+  "item.swordselection.netherite_longsword": "Netherite Longsword"
 }

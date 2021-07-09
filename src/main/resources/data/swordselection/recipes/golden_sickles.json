@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:golden_sword"
+  },
+  "result": "swordselection:golden_sickles",
+  "count": 1
+}
