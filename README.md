@@ -69,10 +69,13 @@ Added iron sickles, iron broadswords, and stonecutter recipes for both
 Currently, I am focusing on adding new tiers of the existing sword variations. Iron and stone have already been completed, but there will be a wood, diamond, and netherite tier of each variation as well. 
 
 Not only that, but there are plans for more variations to come in future updates. These include:
-- Throwable daggers
+- Throwable daggers/knives
 - Scythe
-- Scimitar (long knives)
-- and much more...
+- Glaive
+- Hammer
+- Gauntlets (gloves that give more damage)
+- Whip
+- 
 
 In addition to more variations, here are some more plans for miscellaneous things that may be added into the mod in the future (in order of likelyness from most likely to least likely):
 - Config files to control each sword's attack damage and speed, as well as enable and disable variations and features

@@ -1,5 +1,6 @@
 package com.snek152.swordselection.item;
 
+import com.snek152.swordselection.util.Config;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
@@ -17,7 +18,7 @@ public class Broadsword extends SwordItem {
 
         Vector3d look = wielder.getLookVec().normalize();
 
-        double knockback = 3;
+        double knockback = Config.BROADSWORD_KNOCKBACK_MULTIPLIER.get();
 
         target.setMotion(look.getX()*knockback,look.getY()*knockback,look.getZ()*knockback);
         return true;
