@@ -1,7 +1,11 @@
 # Sword Selection - A Minecraft mod for Forge
 This all-new Minecraft mod adds in new medieval-inspired sword variations. Over time, many swords have popped up over the years, coming in new builds and forms. Sword Selection aims to add many of these famous and popular sword variations into Minecraft with some special twists. You can find the changelog and full list of features below.
 
+Version 1.0 of the Sword Selection mod has released! This mod is now fully functional and has been moved out of beta. This means that this mod is now a complete experience and can be playable to any extent. More features are still in the works, so stay tuned!
+
 # Features
+
+NOTE: The attack speed of a specific variation is the same no matter what the tier is. For example, all the sickles have the same attack speed.
 
 ### Sickles
 
@@ -12,7 +16,18 @@ This all-new Minecraft mod adds in new medieval-inspired sword variations. Over 
 <img src="https://i.ibb.co/dPYSmQY/diamondsickles.png" width="16%" alt="diamond sickles"></img>
 <img src="https://i.ibb.co/PWC8gk1/netheritesickles.png" width="16%" alt="netherite sickles"></img>
 
-Originating in the Neolithic Era, this special harvesting tool was also considered as a weapon because of its unique hook properties. In the Sword Selection mod, they are slightly faster than the average sword but do a little less damage in exchange. It can be used as a replacement for a hoe and can harvest crops too. The iron tier deals 3 damage with 3 attack speed and the stone tier deals 2 damage with 2.8 attack speed. Can be dual wielded.
+Originating in the Neolithic Era, this special harvesting tool was also considered as a weapon because of its unique hook properties. In the Sword Selection mod, they are slightly faster than the average sword but do a little less damage in exchange. It can be used as a replacement for a hoe and can harvest crops too. Can also be dual wielded.
+
+Attack Speed = 3
+
+Attack Damage:
+- WOOD = 1
+- STONE = 2
+- IRON = 3
+- GOLD = 1
+- DIAMOND = 4
+- NETHERITE = 5
+
 
 ### Broadsword
 
@@ -23,7 +38,17 @@ Originating in the Neolithic Era, this special harvesting tool was also consider
 <img src="https://i.ibb.co/5WcZ66y/diamondbroadsword.png" width="16%" alt="diamond broadsword"></img>
 <img src="https://i.ibb.co/k8k26Ny/netheritebroadsword.png" width="16%" alt="netherite broadsword"></img>
 
-These bulky swords first came into use during the Medieval Ages as a double edged, sharper sword than its predecessors. As part of Sword Selection, they are a hefty weight to hold, due to their immense width and power. With the iron tier dealing a massive 8 damage for 0.7 attack speed and the stone tier dealing 7 damage for 0.6 attack speed, this sword is extremely powerful and has the power to send your enemies reeling with increased knockback.
+These bulky swords first came into use during the Medieval Ages as a double edged, sharper sword than its predecessors. As part of Sword Selection, they are a hefty weight to hold, due to their immense width and power. This sword is extremely powerful and has the power to send your enemies reeling with increased knockback.
+
+Attack Speed = 0.7
+
+Attack Damage:
+- WOOD = 6
+- STONE = 7
+- IRON = 8
+- GOLD = 6
+- DIAMOND = 9
+- NETHERITE = 10
 
 ### Longsword
 
@@ -35,12 +60,29 @@ These bulky swords first came into use during the Medieval Ages as a double edge
 <img src="https://i.ibb.co/99j5Czy/netheritelongsword.png" width="16%" alt="netherite longsword"></img>
 
 
-The longsword is a slightly flimsy and thin sword that came into existence during the Renaissance period in Europe. It was widely used in dueling, especially in the Viking era. Today, the longsword holds a special place in the Sword Selection mod. It is slightly thinner than the basic sword and is similar in terms of combat, with the iron tier dealing 6 damage for 1.8 attack speed and the stone tier dealing 5 damage for 1.6 attack speed. However, it has special properties. When striking a mob, it will also deal damage to mobs within a certain radius around it. 
+The longsword is a slightly flimsy and thin sword that came into existence during the Renaissance period in Europe. It was widely used in dueling, especially in the Viking era. Today, the longsword holds a special place in the Sword Selection mod. It is slightly thinner than the basic sword and is similar in terms of combat. However, it has special properties. When striking a mob, it will also deal damage to mobs within a certain radius around it. 
+
+Attack Speed = 1.8
+
+Attack Damage:
+- WOOD = 4
+- STONE = 5
+- IRON = 6
+- GOLD = 4
+- DIAMOND = 7
+- NETHERITE = 8
 
 ### Crafting
-As of version 0.4.1, you can input an iron or stone sword into a stonecutter to get their respective variations. However, a future feature may include a custom tile entity that can craft the different variations.
+As of version 1.0, you can input an iron, stone, wood, gold, diamond, or netherite sword into a stonecutter to get their respective variations. However, a future feature may include a custom tile entity that can craft the different variations.
 
 ![Stonecutter example](https://i.ibb.co/VSbJGhD/Sword-Selection-Stonecutter-GUI.png)
+
+### Other Features
+
+#### Config Files
+This mod is highly configurable. As of now, the configurable details are the durability offset of each variation (as in how far the durability is from the regular sword) and a toggle for dual wielding.
+
+#### 
 
 # Changelog
 Here is the changelog for the recent patches/updates to the mod.
@@ -91,13 +133,11 @@ Not only that, but there are plans for more variations to come in future updates
 - Hammer
 - Gauntlets (gloves that give more damage)
 - Whip
-- 
+- and much more...
 
 In addition to more variations, here are some more plans for miscellaneous things that may be added into the mod in the future (in order of likelyness from most likely to least likely):
-- Config files to control each sword's attack damage and speed, as well as enable and disable variations and features
+- Additional config variables to adjust more aspects of the mod
 - Custom tile entity that can craft and uncraft each sword variation
-- Dual wielding for the scimitars and sickles, and other variations that may need it
-
 
 # Technical Info
 Sword Selection is built using Minecraft Forge version 36.1.0 and MCP for Minecraft 1.16.5. It is licensed under the MIT license. You can feel free to use this mod in a modpack as long as you credit me as the author.
