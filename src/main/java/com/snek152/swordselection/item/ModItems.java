@@ -22,7 +22,7 @@ public class ModItems {
     // Stone sickles
     public static final RegistryObject<Item> STONE_SICKLES =
             Registration.ITEMS.register("stone_sickles",
-                    () -> new Sickles(ItemTier.STONE, 0,-1.2f,
+                    () -> new Sickles(ItemTier.STONE, 0,-1f,
                             new Item.Properties()
                                     .defaultMaxDamage(131-sicklesoffset)
                                     .group(ItemGroup.COMBAT)
@@ -31,7 +31,7 @@ public class ModItems {
     // Golden sickles
     public static final RegistryObject<Item> GOLDEN_SICKLES =
             Registration.ITEMS.register("golden_sickles",
-                    () -> new Sickles(ItemTier.GOLD, 0,-1.4f,
+                    () -> new Sickles(ItemTier.GOLD, 0,-1f,
                             new Item.Properties()
                                     .defaultMaxDamage(32-sicklesoffset)
                                     .group(ItemGroup.COMBAT)
@@ -40,7 +40,7 @@ public class ModItems {
     // Wooden sickles
     public static final RegistryObject<Item> WOODEN_SICKLES =
             Registration.ITEMS.register("wooden_sickles",
-                    () -> new Sickles(ItemTier.WOOD, 0,-1.4f,
+                    () -> new Sickles(ItemTier.WOOD, 0,-1f,
                             new Item.Properties()
                                     .defaultMaxDamage(59-sicklesoffset)
                                     .group(ItemGroup.COMBAT)
@@ -49,7 +49,7 @@ public class ModItems {
     // Diamond sickles
     public static final RegistryObject<Item> DIAMOND_SICKLES =
             Registration.ITEMS.register("diamond_sickles",
-                    () -> new Sickles(ItemTier.DIAMOND, 0,-0.8f,
+                    () -> new Sickles(ItemTier.DIAMOND, 0,-1f,
                             new Item.Properties()
                                     .defaultMaxDamage(1561-sicklesoffset)
                                     .group(ItemGroup.COMBAT)
@@ -58,7 +58,7 @@ public class ModItems {
     // Netherite sickles
     public static final RegistryObject<Item> NETHERITE_SICKLES =
             Registration.ITEMS.register("netherite_sickles",
-                    () -> new Sickles(ItemTier.NETHERITE, 0,-0.6f,
+                    () -> new Sickles(ItemTier.NETHERITE, 0,-1f,
                             new Item.Properties()
                                     .defaultMaxDamage(2031-sicklesoffset)
                                     .group(ItemGroup.COMBAT)
@@ -75,7 +75,7 @@ public class ModItems {
     // Stone broadsword
     public static final RegistryObject<Item> STONE_BROADSWORD =
             Registration.ITEMS.register("stone_broadsword",
-                    () -> new Broadsword(ItemTier.STONE, 5,-3.4f,
+                    () -> new Broadsword(ItemTier.STONE, 5,-3.3f,
                             new Item.Properties()
                                     .defaultMaxDamage(131+broadswordoffset)
                                     .group(ItemGroup.COMBAT)));
@@ -83,7 +83,7 @@ public class ModItems {
     // Wooden broadsword
     public static final RegistryObject<Item> WOODEN_BROADSWORD =
             Registration.ITEMS.register("wooden_broadsword",
-                    () -> new Broadsword(ItemTier.WOOD, 5,-3.5f,
+                    () -> new Broadsword(ItemTier.WOOD, 5,-3.3f,
                             new Item.Properties()
                                     .defaultMaxDamage(59+broadswordoffset)
                                     .group(ItemGroup.COMBAT)));
@@ -91,7 +91,7 @@ public class ModItems {
     // Golden broadsword
     public static final RegistryObject<Item> GOLDEN_BROADSWORD =
             Registration.ITEMS.register("golden_broadsword",
-                    () -> new Broadsword(ItemTier.GOLD, 5,-3.5f,
+                    () -> new Broadsword(ItemTier.GOLD, 5,-3.3f,
                             new Item.Properties()
                                     .defaultMaxDamage(32+broadswordoffset)
                                     .group(ItemGroup.COMBAT)));
@@ -99,7 +99,7 @@ public class ModItems {
     // Diamond broadsword
     public static final RegistryObject<Item> DIAMOND_BROADSWORD =
             Registration.ITEMS.register("diamond_broadsword",
-                    () -> new Broadsword(ItemTier.DIAMOND, 5,-3.2f,
+                    () -> new Broadsword(ItemTier.DIAMOND, 5,-3.3f,
                             new Item.Properties()
                                     .defaultMaxDamage(1561+broadswordoffset)
                                     .group(ItemGroup.COMBAT)));
@@ -107,7 +107,7 @@ public class ModItems {
     // Netherite broadsword
     public static final RegistryObject<Item> NETHERITE_BROADSWORD =
             Registration.ITEMS.register("netherite_broadsword",
-                    () -> new Broadsword(ItemTier.NETHERITE, 5,-3.1f,
+                    () -> new Broadsword(ItemTier.NETHERITE, 5,-3.3f,
                             new Item.Properties()
                                     .defaultMaxDamage(2031+broadswordoffset)
                                     .group(ItemGroup.COMBAT)));
@@ -123,7 +123,7 @@ public class ModItems {
     // Stone longsword
     public static final RegistryObject<Item> STONE_LONGSWORD =
             Registration.ITEMS.register("stone_longsword",
-                    () -> new Longsword(ItemTier.STONE, 3,-2.4f,
+                    () -> new Longsword(ItemTier.STONE, 3,-2.2f,
                             new Item.Properties()
                                     .defaultMaxDamage(131+longswordoffset)
                                     .group(ItemGroup.COMBAT)));
@@ -131,7 +131,7 @@ public class ModItems {
     // Wooden longsword
     public static final RegistryObject<Item> WOODEN_LONGSWORD =
             Registration.ITEMS.register("wooden_longsword",
-                    () -> new Longsword(ItemTier.WOOD, 3,-2.6f,
+                    () -> new Longsword(ItemTier.WOOD, 3,-2.2f,
                             new Item.Properties()
                                     .defaultMaxDamage(59+longswordoffset)
                                     .group(ItemGroup.COMBAT)));
@@ -139,7 +139,7 @@ public class ModItems {
     // Golden longsword
     public static final RegistryObject<Item> GOLDEN_LONGSWORD =
             Registration.ITEMS.register("golden_longsword",
-                    () -> new Longsword(ItemTier.GOLD, 3,-2.6f,
+                    () -> new Longsword(ItemTier.GOLD, 3,-2.2f,
                             new Item.Properties()
                                     .defaultMaxDamage(32+longswordoffset)
                                     .group(ItemGroup.COMBAT)));
@@ -147,7 +147,7 @@ public class ModItems {
     // Diamond longsword
     public static final RegistryObject<Item> DIAMOND_LONGSWORD =
             Registration.ITEMS.register("diamond_longsword",
-                    () -> new Longsword(ItemTier.DIAMOND, 3,-2f,
+                    () -> new Longsword(ItemTier.DIAMOND, 3,-2.2f,
                             new Item.Properties()
                                     .defaultMaxDamage(1561+longswordoffset)
                                     .group(ItemGroup.COMBAT)));
@@ -155,7 +155,7 @@ public class ModItems {
     // Netherite longsword
     public static final RegistryObject<Item> NETHERITE_LONGSWORD =
             Registration.ITEMS.register("netherite_longsword",
-                    () -> new Longsword(ItemTier.NETHERITE, 3,-1.8f,
+                    () -> new Longsword(ItemTier.NETHERITE, 3,-2.2f,
                             new Item.Properties()
                                     .defaultMaxDamage(2031+longswordoffset)
                                     .group(ItemGroup.COMBAT)));
