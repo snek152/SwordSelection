@@ -87,6 +87,16 @@ This mod is highly configurable. As of now, the configurable details are the dur
 # Changelog
 Here is the changelog for the recent patches/updates to the mod.
 
+## 1.0
+Version 1.0 is now released. This means the mod is now in a fully playable state and has a complete list of features.
+
+Gameplay changes:
+- All the missing tiers (wood, gold, diamond, netherite) are now added for every variation, as well as recipes, models, and textures
+- Attack speed is now the same for a single variation, and does not change per tier
+
+Technical changes:
+- Config files are now in a ready to edit stage, with variables for dual wielding toggles, broadsword knockback multiplier, and the durability offset of all variations
+
 ## 0.4.1 (Snapshot/Beta)
 
 Gameplay changes:
