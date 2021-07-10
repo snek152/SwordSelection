@@ -5,19 +5,19 @@ This all-new Minecraft mod adds in new medieval-inspired sword variations. Over 
 
 ### Sickles
 
-![stone sickles](https://i.ibb.co/3v0Hf0c/stonesickles.png) ![iron sickles](https://i.ibb.co/9v0ybjK/ironsickles.png)
+![wooden sickles](https://i.ibb.co/7rb5wMX/woodsickles.png) ![stone sickles](https://i.ibb.co/3v0Hf0c/stonesickles.png) ![iron sickles](https://i.ibb.co/9v0ybjK/ironsickles.png) ![golden sickles](https://i.ibb.co/ph2rRbd/goldsickles.png)
 
 Originating in the Neolithic Era, this special harvesting tool was also considered as a weapon because of its unique hook properties. In the Sword Selection mod, they are slightly faster than the average sword but do a little less damage in exchange. It can be used as a replacement for a hoe and can harvest crops too. The iron tier deals 3 damage with 3 attack speed and the stone tier deals 2 damage with 2.8 attack speed. Can be dual wielded.
 
 ### Broadsword
 
-![stone broadsword](https://i.ibb.co/TryQwbN/stonebroadsword.png) ![iron broadsword](https://i.ibb.co/19jzYTF/ironbroadsword.png)
+![wooden broadsword](https://i.ibb.co/xjjWdkf/woodbroadsword.png) ![stone broadsword](https://i.ibb.co/TryQwbN/stonebroadsword.png) ![iron broadsword](https://i.ibb.co/19jzYTF/ironbroadsword.png) ![golden broadsword](https://i.ibb.co/6YMmhTC/goldbroadsword.png)
 
 These bulky swords first came into use during the Medieval Ages as a double edged, sharper sword than its predecessors. As part of Sword Selection, they are a hefty weight to hold, due to their immense width and power. With the iron tier dealing a massive 8 damage for 0.7 attack speed and the stone tier dealing 7 damage for 0.6 attack speed, this sword is extremely powerful and has the power to send your enemies reeling with increased knockback.
 
 ### Longsword
 
-![stone longsword](https://i.ibb.co/c8GsfT2/stonelongsword.png) ![iron longsword](https://i.ibb.co/kBy5yCn/ironlongsword.png)
+![wooden longsword](https://i.ibb.co/F3K6j2y/woodlongsword.png) ![stone longsword](https://i.ibb.co/c8GsfT2/stonelongsword.png) ![iron longsword](https://i.ibb.co/kBy5yCn/ironlongsword.png) ![golden longsword](https://i.ibb.co/jWhpQnz/goldlongsword.png)
 
 The longsword is a slightly flimsy and thin sword that came into existence during the Renaissance period in Europe. It was widely used in dueling, especially in the Viking era. Today, the longsword holds a special place in the Sword Selection mod. It is slightly thinner than the basic sword and is similar in terms of combat, with the iron tier dealing 6 damage for 1.8 attack speed and the stone tier dealing 5 damage for 1.6 attack speed. However, it has special properties. When striking a mob, it will also deal damage to mobs within a certain radius around it. 
 
