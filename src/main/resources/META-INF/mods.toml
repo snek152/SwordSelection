@@ -15,7 +15,7 @@ displayName="Sword Selection" #mandatory
 #credits="Thanks for this example mod goes to Java" #optional
 authors="SneK152" #optional
 description='''
-This mod allows you to have multiple variations and selections of swords. It adds in a variety of swords, knives, and daggers. WIP.
+This mod allows you to have multiple variations and selections of swords. It adds in a variety of swords, knives, and daggers.
 '''
 [[dependencies.swordselection]] #optional
    modId="forge" #mandatory

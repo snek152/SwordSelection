@@ -17,16 +17,16 @@ public class DualWieldingWeapon extends SwordItem {
     }
 
     @Override
-    public ActionResult<ItemStack> onItemRightClick(World worldIn, PlayerEntity playerIn, Hand handIn) {
-        if (playerIn.getHeldItem(Hand.MAIN_HAND).getItem().getClass().getSuperclass() == DualWieldingWeapon.class && Config.DUAL_WIELDING.get()) {
+    public ActionResult<ItemStack> use(World worldIn, PlayerEntity playerIn, Hand handIn) {
+        if (playerIn.getItemInHand(Hand.MAIN_HAND).getItem().getClass().getSuperclass() == DualWieldingWeapon.class && Config.DUAL_WIELDING.get()) {
             playerIn.swing(handIn, true);
             Minecraft mc = Minecraft.getInstance();
 
-            if (mc.pointedEntity != null) {
-                playerIn.attackTargetEntityWithCurrentItem(worldIn.getEntityByID(mc.pointedEntity.getEntityId()));
+            if (mc.crosshairPickEntity != null) {
+                playerIn.attack(worldIn.getEntity(mc.crosshairPickEntity.getId()));
             }
         }
-        return ActionResult.resultPass(playerIn.getHeldItem(handIn));
+        return ActionResult.pass(playerIn.getItemInHand(handIn));
 
     }
 }
