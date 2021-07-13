@@ -14,13 +14,13 @@ public class Broadsword extends SwordItem {
 
     // Adding knockback
     @Override
-    public boolean hitEntity(ItemStack stack, LivingEntity target, LivingEntity wielder){
+    public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity wielder){
 
-        Vector3d look = wielder.getLookVec().normalize();
+        Vector3d look = wielder.getLookAngle().normalize();
 
         double knockback = Config.BROADSWORD_KNOCKBACK_MULTIPLIER.get();
 
-        target.setMotion(look.getX()*knockback,look.getY()*knockback,look.getZ()*knockback);
+        target.setDeltaMovement(look.x*knockback,look.y*knockback,look.z*knockback);
         return true;
 
     }

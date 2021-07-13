@@ -18,14 +18,14 @@ public class Longsword extends SwordItem {
 
     // Adding radius attack properties
     @Override
-    public boolean hitEntity(ItemStack stack, LivingEntity target, LivingEntity wielder){
+    public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity wielder){
 
-        AxisAlignedBB axis = target.getBoundingBox().expand(3,0,3).expand(-3,0,3).expand(3,0,-3).expand(-3,0,-3);
-        List<Entity> entities = wielder.getEntityWorld().getEntitiesWithinAABBExcludingEntity(wielder,axis);
+        AxisAlignedBB axis = target.getBoundingBox().expandTowards(3,0,3).expandTowards(-3,0,3).expandTowards(3,0,-3).expandTowards(-3,0,-3);
+        List<Entity> entities = wielder.getCommandSenderWorld().getEntities(wielder,axis);
 
         for (Entity e: entities) {
             if (e instanceof LivingEntity && !(e instanceof INPC)) {
-                ((PlayerEntity) wielder).attackTargetEntityWithCurrentItem(e);
+                ((PlayerEntity) wielder).attack(e);
             }
         }
 
