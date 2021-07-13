@@ -60,7 +60,7 @@ Attack Damage:
 <img src="https://i.ibb.co/99j5Czy/netheritelongsword.png" width="16%" alt="netherite longsword"></img>
 
 
-The longsword is a slightly flimsy and thin sword that came into existence during the Renaissance period in Europe. It was widely used in dueling, especially in the Viking era. Today, the longsword holds a special place in the Sword Selection mod. It is slightly thinner than the basic sword and is similar in terms of combat. However, it has special properties. When striking a mob, it will also deal damage to mobs within a certain radius around it. 
+The longsword is a slightly thin sword that was widely used during the Renaissance period in Europe. Today, the longsword holds a special place in the Sword Selection mod. It is slightly thinner than the basic sword and is similar in terms of combat. However, it has special properties. When striking a mob, it will also deal damage to mobs within a certain radius around it. 
 
 Attack Speed = 1.8
 
