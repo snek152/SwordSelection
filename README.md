@@ -1,7 +1,8 @@
 # Sword Selection - A Minecraft mod for Forge
 This all-new Minecraft mod adds in new medieval-inspired sword variations. Over time, many swords have popped up over the years, coming in new builds and forms. Sword Selection aims to add many of these famous and popular sword variations into Minecraft with some special twists. You can find the changelog and full list of features below.
 
-Version 1.0 of the Sword Selection mod has released! This mod is now fully functional and has been moved out of beta. This means that this mod is now a complete experience and can be playable to any extent. More features are still in the works, so stay tuned!
+Update 1.1 has just released, bringing a few gameplay changes. Be on the lookout for update 1.2, which will add the dagger to the game.
+
 
 # Features
 
@@ -87,6 +88,15 @@ This mod is highly configurable. As of now, the configurable details are the dur
 # Changelog
 Here is the changelog for the recent patches/updates to the mod.
 
+## 1.1
+
+Gameplay changes:
+- Holding the broadsword now gives a debuff of slowness due to its heavy weight
+- Holding the longsword has a chance to poke/attack enemies in a certain range of the player
+
+Technical changes:
+- Updated the mod to the latest 1.16.5 official mappings
+
 ## 1.0
 Version 1.0 is now released. This means the mod is now in a fully playable state and has a complete list of features.
 
@@ -96,42 +106,6 @@ Gameplay changes:
 
 Technical changes:
 - Config files are now in a ready to edit stage, with variables for dual wielding toggles, broadsword knockback multiplier, and the durability offset of all variations
-
-## 0.4.1 (Snapshot/Beta)
-
-Gameplay changes:
-- The longsword's lightning properties have been removed. Instead, it attacks entities in a certain radius of the targeted entity.
-- In order to balance this new change, the damage of the longsword has been decreased to 6 for iron and 5 for stone
-
-Technical changes:
-- Skeleton config files and builders are now implemented. They are however very basic and minimal. Currently, the only thing that can be adjusted is the damage of iron sickles, but it could crash the game with a negative damage. Until the next update, it's probably best not to mess with the files right now.
-
-## 0.4.0 (Snapshot/Beta)
-
-Gameplay changes:
-- Dual wielding is now functional. Equip any tier of sickles in the offhand and another in the mainhand to fight like a boss
-- NOTE: the above only works when a sickle is in both the main hand and offhand, otherwise it would be too overpowered
-
-
-## 0.3.1 (Snapshot/Beta)
-
-Gameplay changes:
-- Dual wielding has been added for sickles, but it is not yet functional and is purely cosmetic, meaning it won't do any extra damage.
-- You can also right click the sickles to create an attack animation that doesn't do any damage. This is a WIP
-
-## 0.3.0 (Snapshot/Beta)
-Gameplay changes:
-- Added the stone tiers of the sickles, longsword, and broadsword, as well as model and texture files and recipes
-
-Technical changes:
-- Revamped version system in build.gradle, made it more efficient for getting the mod version
-
-## 0.2.0 (Snapshot/Beta)
-Added the Iron longsword and model, recipe, and texture files
-
-## 0.1.1 (Snapshot/Beta)
-Added iron sickles, iron broadswords, and stonecutter recipes for both
-
 
 ## Future Plans
 Currently, I am focusing on adding new tiers of the existing sword variations. Iron and stone have already been completed, but there will be a wood, diamond, and netherite tier of each variation as well. 
