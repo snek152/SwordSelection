@@ -1,5 +1,6 @@
 package com.snek152.swordselection;
 
+import com.snek152.swordselection.events.ModEvents;
 import com.snek152.swordselection.item.ModItems;
 import com.snek152.swordselection.util.Config;
 import com.snek152.swordselection.util.Registration;
@@ -39,6 +40,7 @@ public class SwordSelection {
 
         Registration.register();
         ModItems.register();
+        MinecraftForge.EVENT_BUS.register(new ModEvents());
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading

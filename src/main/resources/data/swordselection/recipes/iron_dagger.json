@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:iron_sword"
+  },
+  "result": "swordselection:iron_dagger",
+  "count": 1
+}

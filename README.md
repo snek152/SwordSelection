@@ -1,8 +1,7 @@
 # Sword Selection - A Minecraft mod for Forge
 This all-new Minecraft mod adds in new medieval-inspired sword variations. Over time, many swords have popped up over the years, coming in new builds and forms. Sword Selection aims to add many of these famous and popular sword variations into Minecraft with some special twists. You can find the changelog and full list of features below.
 
-Update 1.1 has just released, bringing a few gameplay changes. Be on the lookout for update 1.2, which will add the dagger to the game.
-
+Update 1.1 has just released, adding the new dagger variation and bringing some gameplay changes.
 
 # Features
 
@@ -72,6 +71,12 @@ Attack Damage:
 - GOLD = 4
 - DIAMOND = 7
 - NETHERITE = 8
+
+### Dagger
+
+The small knife known as the dagger has been used throughout human history as not only a means of self defense, but a proprietor of close combat.
+
+(Images of the dagger will be added when all tiers are complete.)
 
 ### Crafting
 As of version 1.0, you can input an iron, stone, wood, gold, diamond, or netherite sword into a stonecutter to get their respective variations. However, a future feature may include a custom tile entity that can craft the different variations.

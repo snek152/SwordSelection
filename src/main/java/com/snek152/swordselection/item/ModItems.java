@@ -160,5 +160,11 @@ public class ModItems {
                                     .defaultDurability(2031+longswordoffset)
                                     .tab(ItemGroup.TAB_COMBAT)));
 
+
+    public static final RegistryObject<Item> IRON_DAGGER =
+            Registration.ITEMS.register("iron_dagger",
+                    () -> new Dagger(ItemTier.IRON,0,0f,
+                            new Item.Properties().defaultDurability(250).tab(ItemGroup.TAB_COMBAT)));
+
     public static void register() {}
 }
