@@ -38,7 +38,7 @@ Attack Damage:
 <img src="https://i.ibb.co/5WcZ66y/diamondbroadsword.png" width="16%" alt="diamond broadsword"></img>
 <img src="https://i.ibb.co/k8k26Ny/netheritebroadsword.png" width="16%" alt="netherite broadsword"></img>
 
-These bulky swords first came into use during the Medieval Ages as a double edged, sharper sword than its predecessors. As part of Sword Selection, they are a hefty weight to hold, due to their immense width and power. This sword is extremely powerful and has the power to send your enemies reeling with increased knockback.
+These bulky swords first came into use during the Medieval Ages as a double edged, sharper sword than its predecessors. As part of Sword Selection, they are a hefty weight to hold, due to their immense width and power. This sword is extremely powerful and has the power to send your enemies reeling with increased knockback, although it does give you a speed debuff due to its weight.
 
 Attack Speed = 0.7
 
@@ -60,7 +60,7 @@ Attack Damage:
 <img src="https://i.ibb.co/99j5Czy/netheritelongsword.png" width="16%" alt="netherite longsword"></img>
 
 
-The longsword is a slightly thin sword that was widely used during the Renaissance period in Europe. Today, the longsword holds a special place in the Sword Selection mod. It is slightly thinner than the basic sword and is similar in terms of combat. However, it has special properties. When striking a mob, it will also deal damage to mobs within a certain radius around it. 
+The longsword is a slightly thin sword that was widely used during the Renaissance period in Europe. Today, the longsword holds a special place in the Sword Selection mod. It is slightly thinner than the basic sword and is similar in terms of combat. However, it has special properties. When striking a mob, it will also deal damage to mobs within a certain radius around it. It also has a chance of poking a mob and dealing a small amount of damage when in your hand.
 
 Attack Speed = 1.8
 
@@ -74,9 +74,13 @@ Attack Damage:
 
 ### Dagger
 
-The small knife known as the dagger has been used throughout human history as not only a means of self defense, but a proprietor of close combat.
+The small knife known as the dagger has been used throughout human history as not only a means of self defense, but a proprietor of close combat. In this mod, the dagger is a unique weapon. With a reach distance of only 2 blocks, it redefines the concept of short range. This dagger is also deadly in the wrong hands. Right clicking it will produce a special attack in which the dagger will be injected into the mob you're looking at, essentially poisoning them as they start dying. If a mob dies to the hands of a dagger special attack, it has a 50 percent chance of dropping an iron ingot.
 
-(Images of the dagger will be added when all tiers are complete.)
+Because of the limitations of how a dagger can be wielded and forged in real life, only the iron tier exists. This has a chance of being changed in the future.
+
+Attack Speed = 4
+
+Attack Damage (IRON) = 3
 
 ### Crafting
 As of version 1.0, you can input an iron, stone, wood, gold, diamond, or netherite sword into a stonecutter to get their respective variations. However, a future feature may include a custom tile entity that can craft the different variations.
