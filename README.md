@@ -73,6 +73,7 @@ Attack Damage:
 - NETHERITE = 8
 
 ### Dagger
+<img src="https://i.ibb.co/vz8cs81/irondagger.png" width="16%" alt="iron dagger"></img>
 
 The small knife known as the dagger has been used throughout human history as not only a means of self defense, but a proprietor of close combat. In this mod, the dagger is a unique weapon. With a reach distance of only 2 blocks, it redefines the concept of short range. This dagger is also deadly in the wrong hands. Right clicking it will produce a special attack in which the dagger will be injected into the mob you're looking at, essentially poisoning them as they start dying. If a mob dies to the hands of a dagger special attack, it has a 50 percent chance of dropping an iron ingot.
 
@@ -85,7 +86,7 @@ Attack Damage (IRON) = 3
 ### Crafting
 As of version 1.0, you can input an iron, stone, wood, gold, diamond, or netherite sword into a stonecutter to get their respective variations. However, a future feature may include a custom tile entity that can craft the different variations.
 
-![Stonecutter example](https://i.ibb.co/VSbJGhD/Sword-Selection-Stonecutter-GUI.png)
+![Stonecutter example](https://i.ibb.co/pffpb70/ironstuff.png)
 
 ### Other Features
 
