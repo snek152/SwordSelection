@@ -102,6 +102,9 @@ Here is the changelog for the recent patches/updates to the mod.
 Gameplay changes:
 - Holding the broadsword now gives a debuff of slowness due to its heavy weight
 - Holding the longsword has a chance to poke/attack enemies in a certain range of the player
+- The iron dagger is now in the game
+    - Small reach distance of 2
+    - Right click special attack inserts the dagger into the mob you're looking at which poisons it and gives it a 50% chance of dropping an iron ingot
 
 Technical changes:
 - Updated the mod to the latest 1.16.5 official mappings
