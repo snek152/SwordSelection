@@ -2,3 +2,4 @@ theme: jekyll-theme-slate
 title: Sword Selection
 description: An all-new Minecraft Forge mod that adds in a variety of swords to the game.
 baseurl: /swordselection
+show_downloads: true
