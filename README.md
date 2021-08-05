@@ -9,12 +9,12 @@ NOTE: The attack speed of a specific variation is the same no matter what the ti
 
 ### Sickles
 
-<img src="https://i.ibb.co/7rb5wMX/woodsickles.png" width="16%" alt="wooden sickles"></img>
-<img src="https://i.ibb.co/3v0Hf0c/stonesickles.png" width="16%" alt="stone sickles"></img>
-<img src="https://i.ibb.co/9v0ybjK/ironsickles.png" width="16%" alt="iron sickles"></img>
-<img src="https://i.ibb.co/ph2rRbd/goldsickles.png" width="16%" alt="golden sickles"></img>
-<img src="https://i.ibb.co/dPYSmQY/diamondsickles.png" width="16%" alt="diamond sickles"></img>
-<img src="https://i.ibb.co/PWC8gk1/netheritesickles.png" width="16%" alt="netherite sickles"></img>
+<img src="https://i.ibb.co/7rb5wMX/woodsickles.png" width="16%" alt="wooden sickles" />
+<img src="https://i.ibb.co/3v0Hf0c/stonesickles.png" width="16%" alt="stone sickles" />
+<img src="https://i.ibb.co/9v0ybjK/ironsickles.png" width="16%" alt="iron sickles" />
+<img src="https://i.ibb.co/ph2rRbd/goldsickles.png" width="16%" alt="golden sickles" />
+<img src="https://i.ibb.co/dPYSmQY/diamondsickles.png" width="16%" alt="diamond sickles" />
+<img src="https://i.ibb.co/PWC8gk1/netheritesickles.png" width="16%" alt="netherite sickles" />
 
 Originating in the Neolithic Era, this special harvesting tool was also considered as a weapon because of its unique hook properties. In the Sword Selection mod, they are slightly faster than the average sword but do a little less damage in exchange. It can be used as a replacement for a hoe and can harvest crops too. Can also be dual wielded.
 
@@ -31,12 +31,12 @@ Attack Damage:
 
 ### Broadsword
 
-<img src="https://i.ibb.co/xjjWdkf/woodbroadsword.png" width="16%" alt="wooden broadsword"></img>
-<img src="https://i.ibb.co/TryQwbN/stonebroadsword.png" width="16%" alt="stone broadsword"></img>
-<img src="https://i.ibb.co/19jzYTF/ironbroadsword.png" width="16%" alt="iron broadsword"></img>
-<img src="https://i.ibb.co/6YMmhTC/goldbroadsword.png" width="16%" alt="golden broadsword"></img>
-<img src="https://i.ibb.co/5WcZ66y/diamondbroadsword.png" width="16%" alt="diamond broadsword"></img>
-<img src="https://i.ibb.co/k8k26Ny/netheritebroadsword.png" width="16%" alt="netherite broadsword"></img>
+<img src="https://i.ibb.co/xjjWdkf/woodbroadsword.png" width="16%" alt="wooden broadsword" />
+<img src="https://i.ibb.co/TryQwbN/stonebroadsword.png" width="16%" alt="stone broadsword" />
+<img src="https://i.ibb.co/19jzYTF/ironbroadsword.png" width="16%" alt="iron broadsword" />
+<img src="https://i.ibb.co/6YMmhTC/goldbroadsword.png" width="16%" alt="golden broadsword" />
+<img src="https://i.ibb.co/5WcZ66y/diamondbroadsword.png" width="16%" alt="diamond broadsword" />
+<img src="https://i.ibb.co/k8k26Ny/netheritebroadsword.png" width="16%" alt="netherite broadsword" />
 
 These bulky swords first came into use during the Medieval Ages as a double edged, sharper sword than its predecessors. As part of Sword Selection, they are a hefty weight to hold, due to their immense width and power. This sword is extremely powerful and has the power to send your enemies reeling with increased knockback, although it does give you a speed debuff due to its weight.
 
@@ -52,12 +52,12 @@ Attack Damage:
 
 ### Longsword
 
-<img src="https://i.ibb.co/F3K6j2y/woodlongsword.png" width="16%" alt="wooden longsword"></img>
-<img src="https://i.ibb.co/c8GsfT2/stonelongsword.png" width="16%" alt="stone longsword"></img>
-<img src="https://i.ibb.co/kBy5yCn/ironlongsword.png" width="16%" alt="iron longsword"></img>
-<img src="https://i.ibb.co/jWhpQnz/goldlongsword.png" width="16%" alt="golden longsword"></img>
-<img src="https://i.ibb.co/qMdFrhv/diamondlongsword.png" width="16%" alt="diamond longsword"></img>
-<img src="https://i.ibb.co/99j5Czy/netheritelongsword.png" width="16%" alt="netherite longsword"></img>
+<img src="https://i.ibb.co/F3K6j2y/woodlongsword.png" width="16%" alt="wooden longsword" />
+<img src="https://i.ibb.co/c8GsfT2/stonelongsword.png" width="16%" alt="stone longsword" />
+<img src="https://i.ibb.co/kBy5yCn/ironlongsword.png" width="16%" alt="iron longsword" />
+<img src="https://i.ibb.co/jWhpQnz/goldlongsword.png" width="16%" alt="golden longsword" />
+<img src="https://i.ibb.co/qMdFrhv/diamondlongsword.png" width="16%" alt="diamond longsword" />
+<img src="https://i.ibb.co/99j5Czy/netheritelongsword.png" width="16%" alt="netherite longsword" />
 
 
 The longsword is a slightly thin sword that was widely used during the Renaissance period in Europe. Today, the longsword holds a special place in the Sword Selection mod. It is slightly thinner than the basic sword and is similar in terms of combat. However, it has special properties. When striking a mob, it will also deal damage to mobs within a certain radius around it. It also has a chance of poking a mob and dealing a small amount of damage when in your hand.
@@ -73,7 +73,7 @@ Attack Damage:
 - NETHERITE = 8
 
 ### Dagger
-<img src="https://i.ibb.co/vz8cs81/irondagger.png" width="16%" alt="iron dagger"></img>
+<img src="https://i.ibb.co/vz8cs81/irondagger.png" width="16%" alt="iron dagger" />
 
 The small knife known as the dagger has been used throughout human history as not only a means of self defense, but a proprietor of close combat. In this mod, the dagger is a unique weapon. With a reach distance of only 2 blocks, it redefines the concept of short range. This dagger is also deadly in the wrong hands. Right clicking it will produce a special attack in which the dagger will be injected into the mob you're looking at, essentially poisoning them as they start dying. If a mob dies to the hands of a dagger special attack, it has a 50 percent chance of dropping an iron ingot.
 
