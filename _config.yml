@@ -1,5 +1,6 @@
-theme: jekyll-theme-cayman
-title: Sword Selection
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have onetitle: Sword Selection
 description: An all-new Minecraft Forge mod that adds in a variety of swords to the game.
 baseurl: /swordselection
 show_downloads: true
