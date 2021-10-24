@@ -12,4 +12,5 @@ repository: SneK152/SwordSelection
 title: Sword Selection
 description: An all-new Minecraft Forge mod that adds in a variety of swords to the game.
 show_downloads: true
+is_project_page: true
 permalink: pretty
